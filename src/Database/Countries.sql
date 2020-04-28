@@ -36,7 +36,7 @@ INSERT [dbo].[Core_Country] ([Id], [Name], [Code3], [IsBillingEnabled], [IsShipp
 INSERT [dbo].[Core_Country] ([Id], [Name], [Code3], [IsBillingEnabled], [IsShippingEnabled], [IsCityEnabled], [IsZipCodeEnabled], [IsDistrictEnabled]) VALUES (N'BW', N'Botswana', N'BWA', 0, 0, 1, 1, 1)
 INSERT [dbo].[Core_Country] ([Id], [Name], [Code3], [IsBillingEnabled], [IsShippingEnabled], [IsCityEnabled], [IsZipCodeEnabled], [IsDistrictEnabled]) VALUES (N'BY', N'Belarus', N'BLR', 0, 0, 1, 1, 1)
 INSERT [dbo].[Core_Country] ([Id], [Name], [Code3], [IsBillingEnabled], [IsShippingEnabled], [IsCityEnabled], [IsZipCodeEnabled], [IsDistrictEnabled]) VALUES (N'BZ', N'Belize', N'BLZ', 0, 0, 1, 1, 1)
-INSERT [dbo].[Core_Country] ([Id], [Name], [Code3], [IsBillingEnabled], [IsShippingEnabled], [IsCityEnabled], [IsZipCodeEnabled], [IsDistrictEnabled]) VALUES (N'CA', N'Canada', N'CAN', 0, 0, 1, 1, 1)
+INSERT [dbo].[Core_Country] ([Id], [Name], [Code3], [IsBillingEnabled], [IsShippingEnabled], [IsCityEnabled], [IsZipCodeEnabled], [IsDistrictEnabled]) VALUES (N'CA', N'Canada', N'CAN', 1, 1, 1, 1, 0)
 INSERT [dbo].[Core_Country] ([Id], [Name], [Code3], [IsBillingEnabled], [IsShippingEnabled], [IsCityEnabled], [IsZipCodeEnabled], [IsDistrictEnabled]) VALUES (N'CC', N'Cocos (Keeling) Islands', N'CCK', 0, 0, 1, 1, 1)
 INSERT [dbo].[Core_Country] ([Id], [Name], [Code3], [IsBillingEnabled], [IsShippingEnabled], [IsCityEnabled], [IsZipCodeEnabled], [IsDistrictEnabled]) VALUES (N'CD', N'Congo - Kinshasa', N'COD', 0, 0, 1, 1, 1)
 INSERT [dbo].[Core_Country] ([Id], [Name], [Code3], [IsBillingEnabled], [IsShippingEnabled], [IsCityEnabled], [IsZipCodeEnabled], [IsDistrictEnabled]) VALUES (N'CF', N'Central African Republic', N'CAF', 0, 0, 1, 1, 1)
