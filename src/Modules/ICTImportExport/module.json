@@ -1,0 +1,6 @@
+{
+  "id": "ICT.Module.ImportExport",
+  "Name": "Your module name",
+  "isBundledWithHost": true,
+  "version": "1.0.0"
+}

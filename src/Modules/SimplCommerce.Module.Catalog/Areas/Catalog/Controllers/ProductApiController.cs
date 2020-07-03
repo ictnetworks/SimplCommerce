@@ -375,7 +375,6 @@ namespace SimplCommerce.Module.Catalog.Areas.Catalog.Controllers
         }
 
         [HttpPut("{id}")]
-        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Put(long id, ProductForm model)
         {
             MapUploadedFile(model);
